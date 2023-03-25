@@ -11,13 +11,6 @@ hello    atguigu!   hello   git!   Success belongs to the persevering
 hello    atguigu!   hello   git!
 hello    atguigu!   hello   git!
 hello    atguigu!   hello   git!
-<<<<<<< HEAD
 hello    atguigu!   hello   git!     master  test
 hello    atguigu!   hello   git!     helloworld
-hello    atguigu!   hello   git!   hot-fix test
-=======
-hello    atguigu!   hello   git!
-hello    atguigu!   hello   git!
-hello    atguigu!   hello   git!
 hello    atguigu!   hello   git!   hot-fix test111
->>>>>>> hot-fix
