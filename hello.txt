@@ -26,7 +26,6 @@ public      class      HelloWorld{
 
 要求：实现单例模式懒汉式 , 并且  保证 线程 是  安全 的 
 22222222222222222222------> by  lhc
-
 具体 实现 代码如下：
 public     class   Bank  {
 
@@ -59,3 +58,4 @@ class     BankTest{
       
       }
 }
+//  by    dongfang    Finnish
