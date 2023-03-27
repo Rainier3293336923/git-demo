@@ -53,7 +53,7 @@ class     BankTest{
       
             // 创建 对象
             Bank    bank1  =  Bank.getInstance();
-            Bank    bank2  =  Bank.getInstance();
+            Bank    bank2  =  Bank.getInstance(); 
 
            System.out.println(bank1.equals(bank2));
       
