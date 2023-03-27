@@ -24,5 +24,38 @@ public      class      HelloWorld{
 
 }  
 
-实现单例模式懒汉
+要求：实现单例模式懒汉式 , 并且  保证 线程 是  安全 的 
 22222222222222222222------> by  lhc
+
+具体 实现 代码如下：
+public     class   Bank  {
+
+      public     static     Bank  bank   = null;
+      
+      public     static    Bank   getInstance(){
+      
+                if(bank  == null){
+                   synchronized(Bank.class){
+                                if(bank  == null){
+                                     bank  =     new   Bank();
+                              }
+                        }
+            }
+                 
+            return    bank;
+      }
+
+}
+
+class     BankTest{
+
+      public    static      void    main(String[]  args){
+      
+            // 创建 对象
+            Bank    bank1  =  Bank.getInstance();
+            Bank    bank2  =  Bank.getInstance();
+
+           System.out.println(bank1.equals(bank2));
+      
+      }
+}
